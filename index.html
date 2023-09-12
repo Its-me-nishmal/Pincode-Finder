@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pincode Details</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Pincode Details</h1>
+        <button id="toggleButton">Show Input</button>
+        <input type="text" id="pincodeInput" placeholder="Enter Pincode" style="display: none;">
+        <div class="hidden" id="details">
+
+            <table id="ok">
+                <tr>
+                    <th>Property</th>
+                    <td id="officeName">Nediyirippu B.O</td>
+                </tr>
+                <tr>
+                    <th>Pincode</th>
+                    <td id="pincode">673638</td>
+                </tr>
+                <tr>
+                    <th>Taluk</th>
+                    <td id="taluk">Ernad</td>
+                </tr>
+                <tr>
+                    <th>District Name</th>
+                    <td id="districtName">Malappuram</td>
+                </tr>
+                <tr>
+                    <th>State Name</th>
+                    <td id="stateName">KERALA</td>
+                </tr>
+            </table>
+            <div class="pagination">
+                <span id="totalFound">Total Found: 1</span>
+                <span id="backButton" style="display: block; cursor: pointer; color: rgb(21, 66, 51)">&#9664;</span>
+                <span id="now" style="display: block; cursor: pointer; color: rgb(21, 66, 51)">1</span>
+                <span id="nextButton" style="display: block; cursor: pointer; color: rgb(21, 66, 51)"> &#9654;</span>
+
+            </div>
+            <div id="results"></div>
+        </div>
+        
+    
+        <!-- GitHub star button -->
+        <div style="text-align: center; margin-top: 50px;">
+            <a class="github-button" href="https://github.com/Its-me-nishmal/Pincode-Finder" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star its-me-nishmal/your-repo-name on GitHub">Star</a>
+        </div>
+        <footer>
+            &copy; 2023 Nishmal Vadakara
+        </footer>
+    </div>
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+
+    <script src="script.js">
+    </script>
+</body>
+
+</html>

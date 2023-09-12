@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f0f0f0; /* Light gray background */
+}
+
+.container {
+    text-align: center;
+}
+footer {
+    max-width: 800px; /* Adjust the maximum width as needed */
+    margin: 0 auto; /* Center the footer horizontally */
+    padding: 10px; /* Add padding for spacing */
+    text-align: center; /* Center the text within the footer */
+}
+
+.hidden {
+    display: none;
+}
+
+#details {
+    margin-top: 20px;
+    background-color: #ffffff; /* White background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f0f0f0; /* Light gray background */
+    color: #333; /* Dark gray text */
+}
+
+td {
+    background-color: #ffffff; /* White background */
+    color: #333; /* Dark gray text */
+}
+
+button {
+    background-color: #E91E63; /* Pink */
+    color: #fff; /* White text */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #FF5722; /* Slightly darker pink on hover */
+}
+
+input[type="text"] {
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    margin: 0px 0;
+    width: 90%;
+    border-radius: 5px;
+}
+.pagination {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagination span {
+    margin: 0 10px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #E91E63;
+}
